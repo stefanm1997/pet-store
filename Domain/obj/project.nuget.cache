@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "c8giYkAknxgUyyqwPH8pNFQV9SI0gN7kZCRrTK6+RPQ25yggemHohVabkMxtSj12j0z+3yAnry30kN7epkS5iw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hp\\source\\repos\\PetStore\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hp\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

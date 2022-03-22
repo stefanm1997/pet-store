@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.AuthenticationController.Authentication(System.String,System.String)">
+            <summary>
+            Admin authentication
+            </summary>
+            <returns>Return JWT Token</returns>
+            <response code="200">Successful authentication</response>
+            <response code="401">Wrong username or password</response>
+        </member>
+        <member name="M:WebAPI.Controllers.OrderController.Create(Domain.Entities.Order)">
+            <summary>
+            Create order
+            </summary>
+            <returns>Return created order</returns>
+            <response code="200">Successful created order</response>
+            <response code="400">Bad request</response>
+        </member>
+        <member name="M:WebAPI.Controllers.OrderController.GetByID(System.Guid)">
+            <summary>
+            Get order by id
+            </summary>
+            <returns>Return one order</returns>
+            <response code="200">Successful returned order</response>
+            <response code="404">Order not found</response>
+        </member>
+        <member name="M:WebAPI.Controllers.OrderController.GetAll">
+            <summary>
+            Get all orders
+            </summary>
+            <returns>Return all orders</returns>
+            <response code="200">Successful returned orders</response>
+            <response code="404">orders not found</response>
+        </member>
+        <member name="M:WebAPI.Controllers.OrderController.Update(System.Guid,Domain.Entities.Order)">
+            <summary>
+            Update order
+            </summary>
+            <returns>Return updated order</returns>
+            <response code="200">Successful updated order</response>
+            <response code="400">Bad request</response>
+        </member>
+        <member name="M:WebAPI.Controllers.OrderController.DeleteById(System.Guid)">
+            <summary>
+            Delete order
+            </summary>
+            <returns>Return deleted order</returns>
+            <response code="200">Successful deleted order</response>
+            <response code="404">Order not found</response>
+        </member>
+        <member name="M:WebAPI.Controllers.PetToyController.Create(Domain.Entities.PetToy)">
+            <summary>
+            Create pet toy
+            </summary>
+            <returns>Return created toy</returns>
+            <response code="200">Successful created toy</response>
+            <response code="400">Bad request</response>
+        </member>
+        <member name="M:WebAPI.Controllers.PetToyController.GetByID(System.Guid)">
+            <summary>
+            Get pet toy by id
+            </summary>
+            <returns>Return one toy</returns>
+            <response code="200">Successful returned toy</response>
+            <response code="404">Toy not found</response>
+        </member>
+        <member name="M:WebAPI.Controllers.PetToyController.GetAll">
+            <summary>
+            Get all pet toys
+            </summary>
+            <returns>Return all toys</returns>
+            <response code="200">Successful returned toys</response>
+            <response code="404">Toys not found</response>
+        </member>
+        <member name="M:WebAPI.Controllers.PetToyController.FilterByName(System.String)">
+            <summary>
+            Filter pet toy by name
+            </summary>
+            <returns>Return one toy</returns>
+            <response code="200">Successful returned toy</response>
+            <response code="404">Toy not found</response>
+        </member>
+        <member name="M:WebAPI.Controllers.PetToyController.FilterByDescription(System.String)">
+            <summary>
+            Filter pet toy by description
+            </summary>
+            <returns>Return one toy</returns>
+            <response code="200">Successful returned toy</response>
+            <response code="404">Toy not found</response>
+        </member>
+        <member name="M:WebAPI.Controllers.PetToyController.Update(System.Guid,Domain.Entities.PetToy)">
+            <summary>
+            Update pet toy
+            </summary>
+            <returns>Return updated toy</returns>
+            <response code="200">Successful updated toy</response>
+            <response code="400">Bad request</response>
+        </member>
+        <member name="M:WebAPI.Controllers.PetToyController.DeleteById(System.Guid)">
+            <summary>
+            Delete pet toy
+            </summary>
+            <returns>Return deleted toy</returns>
+            <response code="200">Successful deleted toy</response>
+            <response code="404">Toy not found</response>
+        </member>
+        <member name="M:WebAPI.Controllers.PetToyController.OrderToy(System.String)">
+            <summary>
+            Order pet toy
+            </summary>
+            <returns>Return list of ordered toy</returns>
+            <response code="200">Successful order toy</response>
+        </member>
+    </members>
+</doc>

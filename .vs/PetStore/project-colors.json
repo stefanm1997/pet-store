@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "80648662-91ad-48f1-9d3f-eab027105441": {
+      "ProjectGuid": "80648662-91ad-48f1-9d3f-eab027105441",
+      "DisplayName": "WebAPI",
+      "ColorIndex": 0
+    },
+    "427a2c8c-86e9-43ed-9370-9de736c0e0b8": {
+      "ProjectGuid": "427a2c8c-86e9-43ed-9370-9de736c0e0b8",
+      "DisplayName": "Domain",
+      "ColorIndex": 1
+    },
+    "bee8a5d7-fa08-4906-9ed1-73241f29e152": {
+      "ProjectGuid": "bee8a5d7-fa08-4906-9ed1-73241f29e152",
+      "DisplayName": "DataAccess.EFCore",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
