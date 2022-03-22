@@ -1,2 +1,5 @@
-# pet-store
 Pet store application
+
+Admin authentication:
+username=admin
+password=admin
